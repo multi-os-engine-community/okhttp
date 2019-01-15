@@ -1,3 +1,4 @@
+/* GENERATED SOURCE. DO NOT MODIFY. */
 /*
  *  Licensed to the Apache Software Foundation (ASF) under one or more
  *  contributor license agreements.  See the NOTICE file distributed with
@@ -14,16 +15,20 @@
  *  See the License for the specific language governing permissions and
  *  limitations under the License.
  */
-package com.squareup.okhttp.internal.huc;
+package com.android.okhttp.internal.huc;
 
-import com.squareup.okhttp.Handshake;
-import com.squareup.okhttp.OkHttpClient;
-import com.squareup.okhttp.internal.URLFilter;
+import com.android.okhttp.Handshake;
+import com.android.okhttp.OkHttpClient;
+import com.android.okhttp.internal.URLFilter;
 import java.net.URL;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.SSLSocketFactory;
 
+/**
+ * @hide This class is not part of the Android public SDK API
+ */
 public final class HttpsURLConnectionImpl extends DelegatingHttpsURLConnection {
+  @dalvik.annotation.compat.UnsupportedAppUsage
   private final HttpURLConnectionImpl delegate;
 
   public HttpsURLConnectionImpl(URL url, OkHttpClient client) {
